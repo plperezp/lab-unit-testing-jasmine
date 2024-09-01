@@ -7,15 +7,15 @@ describe("Iteration 3", () => {
         
         // Each `it` block represents 1 test. You can use the following as a template:
         it("should be defined", () => {
-            expect(add).toBeDefined();
+            expect(calculateArea).toBeDefined();
           });
           it("should take two arguments", () => {
-            expect(add.length).toBe(2);
+            expect(calculateArea.length).toBe(2);
           });
           it("should return undefined if any of the arguments is not provided", () => {
-            expect(add(1)).toEqual(undefined);
-            expect(add()).toEqual(undefined);
-            expect(add(undefined, 1)).toEqual(undefined);
+            expect(alculateArea(1)).toEqual(undefined);
+            expect(alculateArea()).toEqual(undefined);
+            expect(alculateArea(undefined, 1)).toEqual(undefined);
           });
 
 })
